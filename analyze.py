@@ -2,7 +2,7 @@ import datetime
 import json
 
 def analyze_logs(log_file):
-    """Enhancded honeypot log analysis with temporal and behavioral patterns"""
+    """Enhanced honeypot log analysis with temporal and behavioral patterns"""
     ip_analysis = {}
     port_analysis = {}
     hourly_attacks = {}

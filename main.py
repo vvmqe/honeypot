@@ -76,7 +76,7 @@ class Honeypot:
                 )
                 client_handler.start()
         except Exception as e:
-            print(f"Error starting lintener on port {port}: {e}")
+            print(f"Error starting listener on port {port}: {e}")
 
 def main():
     honeypot = Honeypot()
